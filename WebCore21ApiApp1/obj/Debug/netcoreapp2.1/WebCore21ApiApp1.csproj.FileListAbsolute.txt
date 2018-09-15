@@ -12,6 +12,10 @@ D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\WebCore21ApiApp1\obj\Debug\netcor
 D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\WebCore21ApiApp1\obj\Debug\netcoreapp2.1\WebCore21ApiApp1.RazorTargetAssemblyInfo.cache
 D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\WebCore21ApiApp1\obj\Debug\netcoreapp2.1\WebCore21ApiApp1.dll
 D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\WebCore21ApiApp1\obj\Debug\netcoreapp2.1\WebCore21ApiApp1.pdb
+D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\WebCore21ApiApp1\obj\Debug\netcoreapp2.1\WebCore21ApiApp1.csproj.CopyComplete
+D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\WebCore21ApiApp1\bin\Debug\netcoreapp2.1\MyUserDataBO.dll
+D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\WebCore21ApiApp1\bin\Debug\netcoreapp2.1\MyUserDataModels.dll
+D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\WebCore21ApiApp1\bin\Debug\netcoreapp2.1\MyUserDataBO.pdb
+D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\WebCore21ApiApp1\bin\Debug\netcoreapp2.1\MyUserDataModels.pdb
 D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\WebCore21ApiApp1\bin\Debug\netcoreapp2.1\StdEasyArchitect.Web.WebApiHostBase.dll
 D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\WebCore21ApiApp1\bin\Debug\netcoreapp2.1\StdEasyArchitect.Web.WebApiHostBase.pdb
-D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\WebCore21ApiApp1\obj\Debug\netcoreapp2.1\WebCore21ApiApp1.csproj.CopyComplete

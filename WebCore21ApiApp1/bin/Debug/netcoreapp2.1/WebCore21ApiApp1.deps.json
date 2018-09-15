@@ -29,6 +29,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.3",
+          "MyUserDataBO": "1.0.0",
           "StdEasyArchitect.Web.WebApiHostBase": "1.0.0"
         },
         "runtime": {
@@ -648,6 +649,32 @@
           "System.Reflection.Extensions": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "MyUserDataBO/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.2",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.2",
+          "MyUserDataModels": "1.0.0"
+        },
+        "runtime": {
+          "MyUserDataBO.dll": {}
+        },
+        "compile": {
+          "MyUserDataBO.dll": {}
+        }
+      },
+      "MyUserDataModels/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.2",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.2",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.3"
+        },
+        "runtime": {
+          "MyUserDataModels.dll": {}
+        },
+        "compile": {
+          "MyUserDataModels.dll": {}
         }
       },
       "StdEasyArchitect.Web.WebApiHostBase/1.0.0": {
@@ -3758,6 +3785,16 @@
       "sha512": "sha512-BBwABW3hUXv/2vs8gOJWu7oqvj7YFsyluTlE17YwgGcQFHDrfhl9hEHaTNJbZL0DqwqD4Wgu62rH6EvZ0mo/dg==",
       "path": "system.linq.queryable/4.0.1",
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
+    },
+    "MyUserDataBO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyUserDataModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "StdEasyArchitect.Web.WebApiHostBase/1.0.0": {
       "type": "project",

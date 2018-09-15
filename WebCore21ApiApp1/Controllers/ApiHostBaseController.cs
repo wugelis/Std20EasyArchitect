@@ -8,20 +8,46 @@ using StdEasyArchitect.Web.WebApiHostBase;
 
 namespace WebCore21ApiApp1.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ValuesController : ControllerBase
+    //[Route("api/[controller]/{fileName}/{nameSpace}/{className}/{methodName}")]
+    //[ApiController]
+    public class ApiHostBaseController : ApiHostBase //ControllerBase
     {
+        /*
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<object> Get(string filename, string nameSpace, string className, string methodName)
         {
-            return new string[] { "value1", "value2" };
-        }
+            object result = null;
 
+            Assembly execAssm = Assembly.Load(string.Format("{0}, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", filename));//Assembly.GetExecutingAssembly();
+            Type boType = execAssm.GetType(string.Format("{0}.{1}", nameSpace, className));
+
+            if (boType != null)
+            {
+                var invokeObj = Activator.CreateInstance(boType);
+                Type boMethodType = invokeObj.GetType();
+                MethodInfo invokeMethod = boMethodType.GetMethods(BindingFlags.Public | BindingFlags.Instance)
+                    .Where(c => c.Name.ToLower() == methodName.ToLower())
+                    .FirstOrDefault();
+
+                if(invokeMethod != null)
+                {
+                    result = invokeMethod.Invoke(invokeObj, null);
+                }
+                else
+                {
+                    result = new string[] { "value1", "value2" };
+                }
+            }
+
+            return result;
+        }
+        */
+
+        /*
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<string> Get(int? id, string filename, string nameSpace, string className, string methodName)
         {
             return "value";
         }
@@ -43,7 +69,9 @@ namespace WebCore21ApiApp1.Controllers
         public void Delete(int id)
         {
         }
+        */
 
+        /*
         private object ExecuteApiMethod(
             string dllName,
             string nameSpace,
@@ -59,7 +87,6 @@ namespace WebCore21ApiApp1.Controllers
             string nameSapce = string.Empty;
 
             object returnValue = null;
-            //UserAuthType user = new UserAuthType();
 
             try
             {
@@ -85,11 +112,6 @@ namespace WebCore21ApiApp1.Controllers
                     rpc.Message = "請檢查DLL是否存在!";
 
                     rpc.MethodInfo = string.Format("{0}/{1}/{2}/{3}", dllName, nameSpace, className, methodName);
-                    //if (HttpContext.Current != null)
-                    //{
-                    //    rpc.UserName = user.GetUserName;
-                    //    rpc.HostUrl = HttpContext.Current.Request.Url.ToString();
-                    //}
                     return rpc;
                 }
                 else
@@ -100,7 +122,6 @@ namespace WebCore21ApiApp1.Controllers
                     if (ass != null)
                     {
                         Type magicType = ass.GetType(nameSpace + "." + className);
-                        //returnValue = Common(ass, dllName, nameSpace, className, methodName, parameter);
                     }
                     else
                     {
@@ -108,11 +129,6 @@ namespace WebCore21ApiApp1.Controllers
                         rpc.Datetime = DateTime.Now;
                         rpc.Message = "請檢查DLL是否存在!";
                         rpc.MethodInfo = string.Format("{0}/{1}/{2}/{3}", dllName, nameSpace, className, methodName);
-                        //if (HttpContext.Current != null)
-                        //{
-                        //    rpc.UserName = user.GetUserName;
-                        //    rpc.HostUrl = HttpContext.Current.Request.Url.ToString();
-                        //}
                         return rpc;
                     }
                 }
@@ -124,12 +140,6 @@ namespace WebCore21ApiApp1.Controllers
                 rpc.Datetime = DateTime.Now;
                 rpc.Message = ex.Message;
                 rpc.MethodInfo = string.Format("{0}/{1}/{2}/{3}", dllName, nameSpace, className, methodName);
-
-                //if (HttpContext.Current != null)
-                //{
-                //    rpc.UserName = user.GetUserName;
-                //    rpc.HostUrl = HttpContext.Current.Request.Url.ToString();
-                //}
                 rpc.SourceException = ex.Source;
                 rpc.StackTrace = ex.StackTrace;
 
@@ -138,5 +148,6 @@ namespace WebCore21ApiApp1.Controllers
 
             return returnValue;
         }
+        */
     }
 }

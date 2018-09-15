@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MyUserDataBO\MyUserDataBO.csproj" />
     <ProjectReference Include="..\StdEasyArchitect.Web.WebApiHostBase\StdEasyArchitect.Web.WebApiHostBase.csproj" />
   </ItemGroup>
 

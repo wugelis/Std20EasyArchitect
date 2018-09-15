@@ -3,62 +3,48 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Reflection;
 
 namespace StdEasyArchitect.Web.WebApiHostBase
 {
     /// <summary>
-    /// EasyArchitect 的 Api Controller 中間層 (Middleware)
+    /// EasyArchitect 的 Api Controller WebHost.
     /// </summary>
+    [Route("api/[controller]/{fileName}/{nameSpace}/{className}/{methodName}")]
+    [ApiController]
     public class ApiHostBase: ControllerBase
     {
-        private object GetParameter(NameValueCollection getParameters)
+        // GET api/values
+        [HttpGet]
+        public ActionResult<object> Get(string filename, string nameSpace, string className, string methodName)
         {
-            if (getParameters.Count <= 0)
-                return null;
+            object result = null;
 
-            if (getParameters.Count == 1)
+            Assembly execAssm = Assembly.Load(string.Format("{0}, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", filename));//Assembly.GetExecutingAssembly();
+            Type boType = execAssm.GetType(string.Format("{0}.{1}", nameSpace, className));
+
+            if (boType != null)
             {
-                return getParameters[0];
-            }
+                var invokeObj = Activator.CreateInstance(boType);
+                Type boMethodType = invokeObj.GetType();
+                MethodInfo invokeMethod = boMethodType.GetMethods(BindingFlags.Public | BindingFlags.Instance)
+                    .Where(c => c.Name.ToLower() == methodName.ToLower())
+                    .FirstOrDefault();
 
-            var DictForNameValue = NameValue2Dictionary(getParameters, false);
-            string json = JsonConvert.SerializeObject(DictForNameValue);
-            return json;
-        }
-
-        private Dictionary<string, object> NameValue2Dictionary(NameValueCollection nvc, bool handleMultipleValuesPerKey)
-        {
-            var result = new Dictionary<string, object>();
-            foreach (string key in nvc.Keys)
-            {
-                if (handleMultipleValuesPerKey)
+                if (invokeMethod != null)
                 {
-                    string[] values = nvc.GetValues(key);
-                    if (values.Length == 1)
-                    {
-                        result.Add(key, values[0]);
-                    }
-                    else
-                    {
-                        result.Add(key, values);
-                    }
+                    result = invokeMethod.Invoke(invokeObj, null);
                 }
                 else
                 {
-                    result.Add(key, nvc[key]);
+                    result = new string[] { "value1", "value2" };
                 }
             }
 
             return result;
-        }
-        public HttpResponseMessage Get(string fileName, string nameSpaceName, string className, string methodName)
-        {
-
-
-            //return Request.CreateResponse(HttpStatusCode.MethodNotAllowed, new RPCServiceException() { Message = "此服務不支援 GET 方法！請使用 POST 方法。" });
-            return new HttpResponseMessage(HttpStatusCode.MethodNotAllowed);
         }
     }
 }
