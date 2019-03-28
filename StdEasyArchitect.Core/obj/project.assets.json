@@ -30,10 +30,12 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "/dHj9YsoLcZpy0HusWxeh/eD+8urufC1h8NaU3NOp0pToSJ8SA15RD42iek5bV3N239feqJGvJtMuXq0AsQhGw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -202,7 +204,9 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "D:\\Gelis Documents\\MentorTrust\\中菲行\\SourceCode\\NuGet Package": {},
         "D:\\Gelis Documents\\MentorTrust\\野村證券\\SourceCode\\NuGet Package": {},
+        "D:\\Gelis Documents\\教育訓練課程\\你真的需要敏捷嗎？\\Samples\\pkgs": {},
         "D:\\Gelis Documents\\教育訓練課程\\團隊開發系列-設計符合團隊的範本精靈 (Project Template)\\Samples\\NuGetPackages": {},
+        "D:\\Visual Studio 2013 Demo\\Architecture Design\\GelisFramework\\NuGetOutput": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

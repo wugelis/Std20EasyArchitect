@@ -139,10 +139,11 @@
       ]
     },
     "Microsoft.AspNetCore.Http.Features/2.1.1": {
-      "sha512": "cMnTXRH+8T7GLht6cXRCMmN1HaYfXti2WEUdXqMUuyJgi4oH9cmzW4nECSBkQjsCs5O06BphyDDDAsTW/zQmpg==",
+      "sha512": "PZUv3wvyax3Gi2DzpmtclX3cxsk3trXBzeGEiMDFsKoJ+EC0h2O8t0gwevYZwDuHpn+9ZGYJDuP5ub4Trh8MsA==",
       "type": "package",
       "path": "microsoft.aspnetcore.http.features/2.1.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
@@ -163,10 +164,12 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "/dHj9YsoLcZpy0HusWxeh/eD+8urufC1h8NaU3NOp0pToSJ8SA15RD42iek5bV3N239feqJGvJtMuXq0AsQhGw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -303,10 +306,12 @@
       ]
     },
     "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -335,6 +340,8 @@
       "type": "package",
       "path": "system.buffers/4.4.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netcoreapp2.0/_._",
@@ -382,6 +389,8 @@
       "type": "package",
       "path": "system.numerics.vectors/4.4.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -423,6 +432,7 @@
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -473,7 +483,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.0.1",
     "restore": {
       "projectUniqueName": "D:\\Temp\\.NET Conf 2018 Labs\\Std20EasyArchitect\\StdEasyArchitect.Web.WebApiHostBase\\StdEasyArchitect.Web.WebApiHostBase.csproj",
       "projectName": "StdEasyArchitect.Web.WebApiHostBase",
@@ -495,7 +505,9 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "D:\\Gelis Documents\\MentorTrust\\中菲行\\SourceCode\\NuGet Package": {},
         "D:\\Gelis Documents\\MentorTrust\\野村證券\\SourceCode\\NuGet Package": {},
+        "D:\\Gelis Documents\\教育訓練課程\\你真的需要敏捷嗎？\\Samples\\pkgs": {},
         "D:\\Gelis Documents\\教育訓練課程\\團隊開發系列-設計符合團隊的範本精靈 (Project Template)\\Samples\\NuGetPackages": {},
+        "D:\\Visual Studio 2013 Demo\\Architecture Design\\GelisFramework\\NuGetOutput": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

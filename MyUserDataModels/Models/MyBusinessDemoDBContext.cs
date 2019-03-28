@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Configuration;
 
 namespace MyUserDataModels.Models
 {
@@ -30,8 +31,9 @@ namespace MyUserDataModels.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+                //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseSqlServer("Server=(localdb)\\MSSqlLocalDB;Database=MyBusinessDemoDB;Trusted_Connection=True;");
+                //optionsBuilder.UseSqlServer(Configuration.GetConnectionString("UserDataConn"), providerOptions => providerOptions.CommandTimeout(60));
             }
         }
 

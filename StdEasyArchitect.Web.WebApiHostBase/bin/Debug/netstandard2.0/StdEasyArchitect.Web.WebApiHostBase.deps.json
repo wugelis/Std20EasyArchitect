@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "StdEasyArchitect.Web.WebApiHostBase/1.0.0": {
+      "StdEasyArchitect.Web.WebApiHostBase/1.0.0.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
           "NETStandard.Library": "2.0.3",
@@ -123,7 +123,7 @@
     }
   },
   "libraries": {
-    "StdEasyArchitect.Web.WebApiHostBase/1.0.0": {
+    "StdEasyArchitect.Web.WebApiHostBase/1.0.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -138,7 +138,7 @@
     "Microsoft.AspNetCore.Http.Features/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cMnTXRH+8T7GLht6cXRCMmN1HaYfXti2WEUdXqMUuyJgi4oH9cmzW4nECSBkQjsCs5O06BphyDDDAsTW/zQmpg==",
+      "sha512": "sha512-PZUv3wvyax3Gi2DzpmtclX3cxsk3trXBzeGEiMDFsKoJ+EC0h2O8t0gwevYZwDuHpn+9ZGYJDuP5ub4Trh8MsA==",
       "path": "microsoft.aspnetcore.http.features/2.1.1",
       "hashPath": "microsoft.aspnetcore.http.features.2.1.1.nupkg.sha512"
     },
@@ -152,7 +152,7 @@
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/dHj9YsoLcZpy0HusWxeh/eD+8urufC1h8NaU3NOp0pToSJ8SA15RD42iek5bV3N239feqJGvJtMuXq0AsQhGw==",
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
@@ -166,7 +166,7 @@
     "Newtonsoft.Json/11.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "sha512": "sha512-znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },

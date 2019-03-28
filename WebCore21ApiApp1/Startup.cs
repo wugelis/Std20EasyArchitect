@@ -6,10 +6,12 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using MyUserDataModels.Models;
 
 namespace WebCore21ApiApp1
 {
@@ -28,6 +30,10 @@ namespace WebCore21ApiApp1
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddEntityFrameworkSqlServer();
+
+            //services.AddDbContext<MyBusinessDemoDBContext>(options =>
+            //    options.UseSqlServer(Configuration.GetConnectionString("UserDataConn"), providerOptions => providerOptions.CommandTimeout(60))
+            //    .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
