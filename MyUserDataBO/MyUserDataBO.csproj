@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyUserDataModels\MyUserDataModels.csproj" />
+    <ProjectReference Include="..\MyUserViewObjects\MyUserViewObjects.csproj" />
   </ItemGroup>
 
 </Project>

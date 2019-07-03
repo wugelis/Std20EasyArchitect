@@ -8,4 +8,3 @@ D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\MyUserDataModels\bin\Debug\netcor
 D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\MyUserDataModels\bin\Debug\netcoreapp2.1\MyUserDataModels.pdb
 D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\MyUserDataModels\obj\Debug\netcoreapp2.1\MyUserDataModels.dll
 D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\MyUserDataModels\obj\Debug\netcoreapp2.1\MyUserDataModels.pdb
-D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\MyUserDataModels\obj\Debug\netcoreapp2.1\MyUserDataModels.csprojAssemblyReference.cache

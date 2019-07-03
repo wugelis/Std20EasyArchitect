@@ -201,12 +201,8 @@
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Gelis Documents\\MentorTrust\\中菲行\\SourceCode\\NuGet Package": {},
         "D:\\Gelis Documents\\MentorTrust\\野村證券\\SourceCode\\NuGet Package": {},
-        "D:\\Gelis Documents\\教育訓練課程\\你真的需要敏捷嗎？\\Samples\\pkgs": {},
-        "D:\\Gelis Documents\\教育訓練課程\\團隊開發系列-設計符合團隊的範本精靈 (Project Template)\\Samples\\NuGetPackages": {},
-        "D:\\Visual Studio 2013 Demo\\Architecture Design\\GelisFramework\\NuGetOutput": {},
+        "D:\\Gelis Documents\\教育訓練課程\\你的軟體架構夠敏捷嗎？\\Samples\\pkgs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

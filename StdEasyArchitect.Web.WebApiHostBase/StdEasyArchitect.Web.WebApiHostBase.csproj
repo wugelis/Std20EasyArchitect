@@ -28,9 +28,9 @@ Demo: .NET Standard 包裝 - 跨平台應用程式
 
 本場次，我將帶著各位 使用 .NET Standard 2.0 看看它可以為我們在開發這條路上增加什麼樣的秘密武器呢？</Description>
     <Copyright>Gelis</Copyright>
-    <Version>1.0.0.1</Version>
-    <AssemblyVersion>1.0.0.1</AssemblyVersion>
-    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.0.0.2</Version>
+    <AssemblyVersion>1.0.0.2</AssemblyVersion>
+    <FileVersion>1.0.0.2</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

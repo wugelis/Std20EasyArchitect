@@ -12,3 +12,5 @@ D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\MyUserDataBO\bin\Debug\netcoreapp
 D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\MyUserDataBO\bin\Debug\netcoreapp2.1\MyUserDataModels.pdb
 D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\MyUserDataBO\obj\Debug\netcoreapp2.1\MyUserDataBO.csprojAssemblyReference.cache
 D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\MyUserDataBO\obj\Debug\netcoreapp2.1\MyUserDataBO.csproj.CopyComplete
+D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\MyUserDataBO\bin\Debug\netcoreapp2.1\MyUserViewObjects.dll
+D:\Temp\.NET Conf 2018 Labs\Std20EasyArchitect\MyUserDataBO\bin\Debug\netcoreapp2.1\MyUserViewObjects.pdb

@@ -3,6 +3,7 @@ using System;
 using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
+using MyUserViewObjects;
 
 namespace MyUserDataBO
 {
@@ -25,6 +26,11 @@ namespace MyUserDataBO
             var result = context.User.ToList();
 
             return result;
+        }
+
+        public bool Login(UserVO login)
+        {
+            return login != null && !string.IsNullOrEmpty(login.UserId);
         }
     }
 }

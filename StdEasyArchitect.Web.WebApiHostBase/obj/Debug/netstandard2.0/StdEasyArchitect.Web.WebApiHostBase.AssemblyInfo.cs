@@ -31,11 +31,11 @@ Demo: .NET Standard 包裝 - 跨平台應用程式
 微軟近期所推出的 .NET Standard ，而沒多久又將 .NET Standard 推向 2.0 版，再加上 .NET Core 與 ASP.NET Core 2.1 的相繼推出、以及改變應用程式佈署模式的容器服務微軟更是讓 Docker 與 Windows Server 2016 無縫的整合，對於許多工具像是 Visual Studio／VSCode／Visual Studio for MAC 與開發平台不斷地釋出、更新，不管是開發相關、或者持續交付（VSTS）、Containers，這些布局都說明了微軟的熊熊野心。
 
 本場次，我將帶著各位 使用 .NET Standard 2.0 看看它可以為我們在開發這條路上增加什麼樣的秘密武器呢？")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.1")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.2")]
 [assembly: System.Reflection.AssemblyProductAttribute("StdEasyArchitect.Web.WebApiHostBase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StdEasyArchitect.Web.WebApiHostBase")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.1")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.2")]
 
 // 由 MSBuild WriteCodeFragment 類別產生。
 
